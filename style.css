@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding :10px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #212121;
+    line-height: 150%;
+}
+
+h2{
+    margin-top: 150px;
+    margin-bottom: 0px;
+    color:rgb(255, 166, 0);
+}
+
+.game{
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.row{
+    display:flex;
+    flex-direction: column;
+    padding:0 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row input,button{
+    margin: 10px;
+}
+
+.row input{
+    padding: 8px;
+    background: rgb(223, 222, 222);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.row button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 166, 0);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.result_paras h2{
+    margin-top: auto;
+}
+
+.result_paras span.newGame{
+    padding: 10px 22px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(76, 65, 65);
+    display: inline-block;
+    margin: 15px auto;
+}
